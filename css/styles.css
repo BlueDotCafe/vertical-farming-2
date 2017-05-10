@@ -1,0 +1,10 @@
+#leaf {
+  max-height: 38px;
+  margin-right: 17px;
+  margin-top: -7px;
+  display: inline-block;
+}
+
+#brand {
+  color: green;
+}
