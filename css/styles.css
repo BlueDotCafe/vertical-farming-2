@@ -1,35 +1,54 @@
 #leaf {
-  max-height: 38px;
+  max-height: 37px;
   margin-right: 17px;
   margin-top: -7px;
   display: inline-block;
 }
 
 #brand {
-  color: rgba(76, 67, 59, 0.83);
-  font-size: 15pt;
+  color: #232417;
+  font-size: 19pt;
+}
+
+.jumbo-grow {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 200pt;
+  color: rgba(239, 220, 181, 0.25);
+
 }
 
 .jumbotron {
-  height: 420px;
+  height: 870px;
   background-color: rgba(229, 205, 163, 0.55);
+  background-image: url(../img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 blockquote {
   margin-top: 240px;
-  color: rgba(76, 67, 59, 0.83);
-  font-size: 18pt;
+  color: #eee;
+  font-size: 29pt;
 }
 
 footer {
-  color: rgba(76, 67, 59, 0.83);
+  color: rgba(206, 189, 157, 0.56);
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100pt;
+  text-align: center;
+  color: rgba(224, 203, 167, 0.44);
 }
 
 a {
-  color: rgba(76, 67, 59, 0.83);
+  color: #232417;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 14pt;
+  font-size: 18pt;
 }
 
 
