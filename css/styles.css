@@ -70,8 +70,22 @@ li {
   font-weight: lighter;
   color: #2b2d1f;
   padding: 18px;
-  height: 400px;
+  height: 300px;
   border: 2px solid rgba(49, 70, 34, 0.74);
+}
 
+.other-projects a {
+  color: red;
+  font-size: 15pt;
+}
 
+.other-projects .site {
+  height: 400px;
+  padding: 17px;
+  border: 2px solid rgba(49, 70, 34, 0.74);
+}
+
+.other-projects p {
+  font-size: 14pt;
+  font-weight: lighter;
 }
