@@ -54,9 +54,5 @@ a {
 
 #row-of-3 {
   margin: auto;
-}
-
-.col-md-4 {
-  height: 350px;
-  width: 350px;
+  margin-top: 190px;
 }
