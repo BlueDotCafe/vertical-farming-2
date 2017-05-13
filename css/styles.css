@@ -6,7 +6,7 @@
 }
 
 #brand {
-  color: #232417;
+  color: #eee;
   font-size: 19pt;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .jumbotron {
-  height: 870px;
+  height: 1300px;
   background-color: rgba(229, 205, 163, 0.55);
   background-image: url(../img/4.jpg);
   background-repeat: no-repeat;
@@ -27,9 +27,10 @@
 }
 
 blockquote {
-  margin-top: 240px;
+  margin-top: 148px;
   color: #eee;
-  font-size: 29pt;
+  font-size: 28pt;
+  font-weight: lighter;
 }
 
 footer {
@@ -45,10 +46,9 @@ h1 {
 }
 
 a {
-  color: #232417;
-  font-family: sans-serif;
+  color: #eee;
   font-weight: lighter;
-  font-size: 18pt;
+  font-size: 19pt;
 }
 
 
