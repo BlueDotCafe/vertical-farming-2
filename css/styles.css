@@ -62,7 +62,7 @@ li {
 
 .panel-index {
   background-color: rgba(238, 238, 238, 0.56);
-  height: 380px;
+  height: 420px;
 }
 
 .about p {
@@ -70,7 +70,7 @@ li {
   font-weight: lighter;
   color: #2b2d1f;
   padding: 18px;
-  height: 300px;
+  height: 470px;
   border: 2px solid rgba(49, 70, 34, 0.74);
 }
 
@@ -88,4 +88,23 @@ li {
 .other-projects p {
   font-size: 14pt;
   font-weight: lighter;
+}
+
+#land {
+  float: left;
+  width: 700px;
+  display: block;
+}
+
+.sgs p {
+  font-size: 15pt;
+  font-weight: lighter;
+  color: #eee;
+  margin-right: 35px;
+  padding: 25px;
+  border: 4px solid #eee;
+}
+
+.sgs {
+  background-color: rgba(51, 95, 13, 0.83);
 }
