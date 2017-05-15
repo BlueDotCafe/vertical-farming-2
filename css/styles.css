@@ -30,7 +30,7 @@ footer {
 h1 {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 100pt;
+  font-size: 75pt;
   text-align: center;
   color: rgba(224, 203, 167, 0.44);
 }
@@ -119,4 +119,8 @@ li {
   color: #eee;
   font-weight: lighter;
   padding-top: 25px;
+}
+
+.sgs {
+  background-color: rgba(103, 146, 35, 0.87);
 }
