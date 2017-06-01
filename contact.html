@@ -36,22 +36,41 @@
           <br><br><br><br><br><br><br>
             <div class="row">
               <div class="col-md-12">
-                <div class="panel panel-index">
+                <div class="panel panel-contact">
                   <div class="panel-heading">
-                    <br><br>
-                    <h3><span class="best">Benefits Multiplied for Cannabis & Leafy Greens</span></h3>
-                    <ul>
-                      <br>
-                      <li>BIO MASS increased. Product output per square foot <span class="best">increased by 500%</span></li>
-                      <br>
-                      <li>Because our patented lights and process are in a controllable environment. Count on <span class="best">product consistancy</span>.</li>
-                      <br>
-                      <li><span class="best">No more heat rising</span>. Our patented LED lighting and process eliminates it.</li>
-                      <br>
-                      <li>Eliminate waste. <span class="best">More return per sq. ft.</span> means less over-all cost per product output.</li>
-                      <br>
-                      <li>Shorter growth cycle, means higher returns. Checkout <em>"The New 4 Week Standard"</em>.</li>
-                    </ul>
+                    <div id="blanks">
+                      <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+                       <div class="form-group">
+                          <h5><label for="inputCompanyName">Company Name</label></h5>
+                          <textarea type="text" name="career[name]" class="form-control" tabindex="1" placeholder="Enter Company Name" pattern="[a-zA-Z. ]{1,50}" required></textarea>
+                      </div>
+                      <div class="form-group">
+                         <h5><label for="inputName">Name</label></h5>
+                         <textarea type="text" name="career[name]" class="form-control" tabindex="1" placeholder="Enter your name" pattern="[a-zA-Z. ]{1,50}" required></textarea>
+                      </div>
+                      <div class="form-group">
+                         <h5><label for="inputEmail">Email</label></h5>
+                          <textarea type="email" name="career[email]" class="form-control" tabindex="2" placeholder="Enter your email address" required></textarea>
+                      </div>
+                      <div class="form-group">
+                         <h5><label for="inputMobile">Mobile</label></h5>
+                          <textarea type="tel" name="career[mobile]" class="form-control" tabindex="3" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required></textarea>
+                      </div>
+                      <div class="form-group">
+                         <h5><label for="inputMessage">Message</label></h5>
+                         <textarea type="text" name="career[message]" class="form-control" tabindex="4" placeholder="Write your details" required></textarea>
+                      </div>
+                      <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+                   </form>
+
+
+
+
+
+                    </div>
+
+
+
                 </div>
               </div>
             </div>
